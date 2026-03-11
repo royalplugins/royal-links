@@ -1,0 +1,218 @@
+/**
+ * Royal Links Classic Editor Styles
+ */
+
+/* Modal Overlay */
+.royal-links-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.royal-links-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Modal Container */
+.royal-links-modal-container {
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    width: 600px;
+    max-width: 90%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal Header */
+.royal-links-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.royal-links-modal-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.royal-links-modal-close {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #666;
+    padding: 0;
+    line-height: 1;
+}
+
+.royal-links-modal-close:hover {
+    color: #000;
+}
+
+/* Modal Body */
+.royal-links-modal-body {
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* Search Section */
+.royal-links-search-section {
+    margin-bottom: 20px;
+}
+
+.royal-links-search-section label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.royal-links-search-section input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.royal-links-search-results {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-top: none;
+    display: none;
+}
+
+.royal-links-search-results.has-results {
+    display: block;
+}
+
+.royal-links-search-result {
+    padding: 12px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.royal-links-search-result:last-child {
+    border-bottom: none;
+}
+
+.royal-links-search-result:hover {
+    background: #f6f7f7;
+}
+
+.royal-links-search-result .link-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.royal-links-search-result .link-url {
+    font-size: 12px;
+    color: #666;
+    word-break: break-all;
+}
+
+.royal-links-no-results {
+    padding: 15px;
+    text-align: center;
+    color: #666;
+}
+
+/* Divider */
+.royal-links-divider {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.royal-links-divider::before,
+.royal-links-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.royal-links-divider span {
+    padding: 0 15px;
+    color: #666;
+    font-size: 13px;
+}
+
+/* Create Section */
+.royal-links-create-section .royal-links-field {
+    margin-bottom: 15px;
+}
+
+.royal-links-create-section label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.royal-links-create-section label .required {
+    color: #dc3232;
+}
+
+.royal-links-create-section label .optional {
+    font-weight: normal;
+    color: #666;
+}
+
+.royal-links-create-section input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Modal Footer */
+.royal-links-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 15px 20px;
+    border-top: 1px solid #ddd;
+    background: #f6f7f7;
+}
+
+/* Loading State */
+.royal-links-loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.royal-links-loading::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    border: 2px solid #ddd;
+    border-top-color: #2271b1;
+    border-radius: 50%;
+    animation: royal-links-spin 1s linear infinite;
+}
+
+@keyframes royal-links-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
