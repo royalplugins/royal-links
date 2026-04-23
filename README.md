@@ -2,12 +2,12 @@
 
 # Royal Links
 
-**WordPress link management — shortening, tracking, and organizing your links**
+**Free WordPress link management — branded short URLs, click tracking, geo-targeting, A/B split testing, QR codes, and keyword auto-linking.**
 
 [![WordPress](https://img.shields.io/badge/WordPress-5.0+-21759B?style=flat-square&logo=wordpress)](https://wordpress.org/plugins/royal-links/)
 [![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=flat-square&logo=php)](https://www.php.net/)
 [![License](https://img.shields.io/badge/License-GPLv2-blue?style=flat-square)](https://www.gnu.org/licenses/gpl-2.0.html)
-[![Version](https://img.shields.io/badge/Version-1.1.3-C9A227?style=flat-square)](https://wordpress.org/plugins/royal-links/)
+[![Version](https://img.shields.io/badge/Version-2.0.2-C9A227?style=flat-square)](https://wordpress.org/plugins/royal-links/)
 
 [Download on WordPress.org](https://wordpress.org/plugins/royal-links/) · [Documentation](https://royalplugins.com/support/royal-links/) · [Royal Plugins](https://royalplugins.com)
 
@@ -15,18 +15,27 @@
 
 ---
 
-Royal Links is a link management plugin for WordPress that lets you create branded short links using your own domain, track clicks with detailed analytics, and organize your affiliate and marketing links. No third-party services, no monthly fees — everything runs on your own site.
+Royal Links is a free link management plugin for WordPress. Create branded short URLs on your own domain, track clicks with detailed analytics, geo-target redirects by country, A/B split traffic between destinations, generate QR codes, and auto-link keywords in your content — all without third-party services or monthly fees.
+
+Every feature is included free. No Pro tier, no add-ons, no per-link fees. Everything runs on your own WordPress site with no external dependencies.
 
 ## Features
 
-- **Link Shortening** — Create clean, branded short URLs on your own domain (`yoursite.com/go/link-name`)
-- **Click Tracking** — Detailed analytics including browser, device, referrer, and geographic data
-- **Multiple Redirect Types** — 301 (permanent), 302 (temporary), and 307 redirects
-- **Link Categories & Tags** — Organize links into groups for easy management
-- **Nofollow / Sponsored Attributes** — One-click compliance with Google's link attribute guidelines
-- **Broken Link Detection** — Automatic monitoring flags dead destination URLs
-- **Import / Export** — Backup your links or migrate from another plugin
-- **Editor Integration** — Gutenberg block and Classic Editor button for inserting links into posts
+- **Branded short URLs** on your own domain (`yoursite.com/go/link-name`)
+- **Click tracking** with browser, device, referrer, and geographic data
+- **Geo-targeting** — redirect visitors to different URLs based on country
+- **A/B split testing** — send percentage of traffic to different destinations
+- **QR code generation** for every link, print-ready download
+- **Keyword auto-linking** — automatically convert content keywords into short links
+- **UTM builder** — generate tagged URLs with one-click campaign defaults
+- **301, 302, 307, 308 redirects** with SEO-correct status codes
+- **Link categories and tags** for organized management
+- **Nofollow / sponsored / UGC** link attributes for Google compliance
+- **Broken-link monitoring** with auto-flagging of dead destinations
+- **Link scheduling and expiration**
+- **Password-protected links**
+- **Import / export** for bulk link migration
+- **Gutenberg block + Classic Editor button** for inline link insertion
 
 ## Use Cases
 
@@ -34,8 +43,9 @@ Royal Links is a link management plugin for WordPress that lets you create brand
 |-----|-----|
 | **Affiliate marketers** | Cloak commission links, track which content drives clicks |
 | **Bloggers** | Branded short URLs for social media sharing |
-| **Businesses** | Track marketing campaign performance by link |
-| **Content creators** | Organize resource links, detect when destinations go down |
+| **Businesses** | Track marketing campaigns with UTM-tagged short links |
+| **E-commerce** | Geo-target product links by shipping zone or currency |
+| **Content creators** | Keyword auto-linking converts mentions into trackable URLs |
 
 ## Quick Start
 
@@ -44,13 +54,14 @@ Royal Links is a link management plugin for WordPress that lets you create brand
 3. Click **Add New**, enter a destination URL, customize the slug
 4. Share your branded short link — clicks are tracked automatically
 
-## Redirect Types — Which One to Use
+## Redirect Types
 
 | Type | When to Use |
 |------|-------------|
 | **301** | Permanent redirects — best for affiliate links and SEO |
 | **302** | Temporary redirects — testing or short-term campaigns |
-| **307** | Temporary redirect that preserves the HTTP method — API or form submissions |
+| **307** | Temporary that preserves the HTTP method — API or form submissions |
+| **308** | Permanent that preserves the HTTP method |
 
 ## Requirements
 
@@ -60,37 +71,39 @@ Royal Links is a link management plugin for WordPress that lets you create brand
 ## Installation
 
 ### From WordPress.org (Recommended)
+
 1. Go to **Plugins > Add New** in your WordPress admin
 2. Search for "Royal Links"
 3. Click **Install Now**, then **Activate**
 
 ### Manual Installation
+
 1. Download from [WordPress.org](https://wordpress.org/plugins/royal-links/)
 2. Upload to `/wp-content/plugins/royal-links/`
 3. Activate through the **Plugins** menu
 
-## Royal Links Pro
+## More Royal Plugins
 
-Need more? [Royal Links Pro](https://royalplugins.com/royal-links/) adds:
-
-- Unlimited links (free version has no limit either — Pro adds advanced features)
-- Auto-linking — automatically convert keywords in your content to short links
-- Advanced analytics with geographic data and UTM tracking
-- Link scheduling and expiration
-- Password-protected links
-
-[Learn more about Pro](https://royalplugins.com/royal-links/)
-
-## About Royal Plugins
-
-Royal Links is built by [Royal Plugins](https://royalplugins.com) — lightweight, security-first WordPress plugins built with clean code.
-
-Check out our other plugins:
 - [GuardPress](https://royalplugins.com/guardpress/) — WordPress security hardening
-- [SEObolt](https://seobolt.io) — Technical SEO toolkit
-- [SiteVault](https://royalplugins.com/sitevault/) — Automated backups
-- [Royal MCP](https://github.com/royalplugins/royal-mcp) — AI platform integration for WordPress
+- [SiteVault](https://royalplugins.com/sitevault/) — WordPress backups and migration
+- [SEObolt](https://royalplugins.com/seobolt/) — SEO toolkit for WordPress
+- [Royal Affiliates](https://royalplugins.com/royal-affiliates/) — Affiliate program management
+- [Royal Access](https://royalplugins.com/royal-access/) — Accessibility toolbar and WCAG fixes
+
+## Free WordPress Tools
+
+- [SERP Preview](https://royalplugins.com/tools/serp-preview/) — Preview Google search result snippets
+- [Meta Tag Checker](https://royalplugins.com/tools/meta-tag-checker/) — Analyze page meta tags
+- [Schema Validator](https://royalplugins.com/tools/schema-validator/) — Validate structured data markup
+- [HTTP Headers Checker](https://royalplugins.com/tools/http-headers-checker/) — Inspect HTTP response headers
 
 ## License
 
 Royal Links is licensed under the [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
+
+---
+<p align="center">
+  <strong>Built by <a href="https://royalplugins.com">Royal Plugins</a></strong><br/>
+  Lightweight, security-first WordPress plugins.<br/>
+  © 2026 Royal Plugins. All rights reserved.
+</p>
