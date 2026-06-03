@@ -7,7 +7,7 @@
 [![WordPress](https://img.shields.io/badge/WordPress-5.0+-21759B?style=flat-square&logo=wordpress)](https://wordpress.org/plugins/royal-links/)
 [![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=flat-square&logo=php)](https://www.php.net/)
 [![License](https://img.shields.io/badge/License-GPLv2-blue?style=flat-square)](https://www.gnu.org/licenses/gpl-2.0.html)
-[![Version](https://img.shields.io/badge/Version-2.0.2-C9A227?style=flat-square)](https://wordpress.org/plugins/royal-links/)
+[![Version](https://img.shields.io/badge/Version-2.0.6-C9A227?style=flat-square)](https://wordpress.org/plugins/royal-links/)
 
 [Download on WordPress.org](https://wordpress.org/plugins/royal-links/) · [Documentation](https://royalplugins.com/support/royal-links/) · [Royal Plugins](https://royalplugins.com)
 
